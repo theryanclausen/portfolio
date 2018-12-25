@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "ryan-clausen-portfolio",
+  "description": "Portfolio for fullstack developer Ryan Clausen",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ryan Clausen",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
@@ -14,8 +13,8 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
     "prop-types": "^15.6.2",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
     "react-helmet": "^5.2.0"
   },
   "keywords": [

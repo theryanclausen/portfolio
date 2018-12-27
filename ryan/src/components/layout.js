@@ -12,13 +12,14 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            subtitle
           }
         }
       }
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} siteSubTitle={data.site.siteMetadata.subtitle}/>
         <div
           style={{
             margin: `0 auto`,

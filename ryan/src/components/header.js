@@ -67,6 +67,7 @@ const drawLines = keyframes`
 const StyledHeader = styled.header`
   background: #0a2e40;
   position: fixed;
+  bottom:0;
   width: 100vw;
   .header-container {
     position: relative;

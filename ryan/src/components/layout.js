@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 
-import Header from './header'
+import Header from './footer'
 import './layout.css'
 
 const Container = styled.main`
-  max-width:960px;
-  margin: 0 auto;
+  background: linear-gradient(lightblue 0%,10%, #272727 23%, 60%,#0a2e40 80%);
+ 
 `
 
 const Layout = ({ children }) => (

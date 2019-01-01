@@ -20,7 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
   font-size: 100%;
-  font-family: 'Aleo', serif;
+  
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  background: #272727;
+  
 }
 ol, ul {
 	list-style: none;
@@ -52,5 +52,6 @@ table {
 *{
   box-sizing: border-box;
   text-decoration: none;
-  color:white;
+	color:white;
+	
 }

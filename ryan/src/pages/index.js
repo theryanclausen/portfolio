@@ -1,19 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
-import ScrollPercentage from 'react-scroll-percentage'
 // import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
 
-const Container = styled(ScrollPercentage)``
+const Container = styled.div`
+  max-width: 960px;
+  margin: 0 auto;
+`
 class IndexPage extends React.Component {
   constructor() {
     super()
-    this.state = {
-      scrollPosition: 0,
-    }
+    this.state = {}
   }
 
   render() {
@@ -35,7 +35,7 @@ class IndexPage extends React.Component {
             'lambda school',
           ]}
         />
-        <ScrollPercentage onChange={(percentage) => this.setState({scrollPosition:percentage})}>
+        <Container>
           <h1>Hi people</h1>
           <p>Welcome to your new Gatsby site.</p>
           <p style={{ width: '300px' }}>
@@ -89,7 +89,7 @@ class IndexPage extends React.Component {
           <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
             <Image />
           </div>
-        </ScrollPercentage>
+        </Container>
       </Layout>
     )
   }

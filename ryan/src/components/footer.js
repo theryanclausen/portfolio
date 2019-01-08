@@ -90,7 +90,7 @@ const Header = () => {
         {/* <Link to='/'>Experience</Link>
         <Link to='/'>Projects</Link>
         <Link to='/'>About</Link> */}
-        <Link to='/'>Blog</Link>
+        <Link to='/blog'>Blog</Link>
       </div>
         <div className="icon-container">
           <a

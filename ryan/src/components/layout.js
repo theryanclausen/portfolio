@@ -9,6 +9,10 @@ import './layout.css'
 const Container = styled.main`
   background: linear-gradient(lightblue 0%, white ,#0a2e40 80%);
   height: 100vh;
+  .wrapper{
+    max-width: 960px;
+  margin: 0 auto;
+  }
 `
 
 const Layout = ({ children }) => (
@@ -27,7 +31,8 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} siteSubTitle={data.site.siteMetadata.subtitle}/>
         <Container>
-          {children}
+          <div className='wrapper'>
+          {children}</div>
         </Container>
       </>
     )}

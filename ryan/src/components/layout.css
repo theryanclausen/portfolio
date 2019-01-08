@@ -53,13 +53,10 @@ table {
   box-sizing: border-box;
   text-decoration: none;
 	color:white;
-	
+	font-family: 'Aleo', serif;
 }
+
 
 h1,h2,h3,h4,h5{
 	font-family: 'Rock Salt', cursive;
-}
-
-p{
-	font-family: 'Aleo', serif;
 }

@@ -1,29 +1,47 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 //import Image from '../components/image'
 import SEO from '../components/seo'
 
-
 const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    padding-top: 100px;
-
+    padding-bottom: 235px;
+    a {
+      color: darkred;
+      text-shadow: 2px 2px 2px yellow, -2px -2px 2px yellow;
+      &:hover {
+        color: white;
+        transition: 500ms;
+        text-shadow: 2px 2px 12px #0a2e40, -2px -2px 12px #0a2e40;
+      }
+    }
     div {
       width: 48%;
+
       h1 {
         font-size: 96px;
         text-align: center;
-        text-shadow: 6px 6px 17px #0a2e40, -6px -6px 17px #0a2e40;
+        text-shadow: 6px 6px 19px #0a2e40, -6px -6px 19px #0a2e40;
+        line-height: 1.5;
       }
+    }
+    .text-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       p {
-        text-shadow: 2px 2px 7px #0a2e40, -2px -2px 12px #0a2e40;
+        font-size: 22px;
+        line-height: 1.5;
+        text-shadow: 2px 2px 12px #0a2e40, -2px -2px 12px #0a2e40;
       }
     }
   }
@@ -60,14 +78,18 @@ class IndexPage extends React.Component {
             </div>
             <div className="text-block">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                asperiores, animi quo, nisi sunt explicabo suscipit libero ipsa
-                reprehenderit sed saepe, deserunt obcaecati eveniet eligendi.
-                Ipsam quasi eveniet deserunt nostrum?
+                Hey everybody, my name is Ryan and I am a fullstack developer. I
+                am currently a student at{' '}
+                <a href="https://lambdaschool.com">Lambda School</a>, but I also
+                like to learn new technologies and build neat things on my own.
+              </p>
+              <p>
+                Currently I am working on a month long group project to create a
+                family scheduling app. Check out my <Link to="blog">blog</Link>{' '}
+                to see how things are going.
               </p>
             </div>
           </header>
-  
         </Container>
       </Layout>
     )

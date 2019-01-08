@@ -1,6 +1,6 @@
 ---
 path: '/first-day-labs'
-date: '2019-01-09'
+date: 'January 9th, 2019'
 title: 'First Day of Labs 9'
 author: 'Ryan Clausen'
 ---

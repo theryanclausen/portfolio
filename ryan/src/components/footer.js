@@ -1,23 +1,12 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import { twitterPathD, linkedinPathD, githubPathD } from '../images/svgs'
 //import {posed} from 'react-pose'
 
 
-const drawLines = keyframes`
- 0%{
-    
-    stroke-dashoffset:100%;
- }
 
-
-  100%{
-    stroke-dashoffset:0%;
-
-  }
- `
 
 const StyledHeader = styled.header`
   background: #0a2e40;
@@ -98,9 +87,9 @@ const Header = () => {
       <div className="header-container">
       <div className='links'>
         <Link to='/'>Home</Link>
-        <Link to='/'>Experience</Link>
+        {/* <Link to='/'>Experience</Link>
         <Link to='/'>Projects</Link>
-        <Link to='/'>About</Link>
+        <Link to='/'>About</Link> */}
         <Link to='/'>Blog</Link>
       </div>
         <div className="icon-container">

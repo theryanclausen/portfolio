@@ -7,8 +7,8 @@ import Header from './footer'
 import './layout.css'
 
 const Container = styled.main`
-  background: linear-gradient(lightblue 0%,10%, #272727 23%, 60%,#0a2e40 80%);
- 
+  background: linear-gradient(lightblue 0%, white ,#0a2e40 80%);
+  height: 100vh;
 `
 
 const Layout = ({ children }) => (

@@ -8,7 +8,7 @@ const BlogPostContainer = styled.div`
   text-shadow: 4px 4px 17px #0a2e40, -4px -4px 17px #0a2e40;
   .above-line {
     border-bottom: 1px solid white;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     
     display: flex;
     width: 100%;
@@ -24,10 +24,17 @@ const BlogPostContainer = styled.div`
     p {
       display: inline-block;
       font-style: italic;
+      
     }
   }
   .post-text{
     font-size: 22px;
+    p{
+      margin: 0 auto 20px;
+      width:85%;
+      line-height: 1.5;
+    }
+    
   }
 `
 

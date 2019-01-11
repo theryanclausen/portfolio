@@ -83,9 +83,6 @@ export const postQuery = graphql`
         title
         author
         date
-        cover_image{
-          publicURL
-        }
       }
     }
   }

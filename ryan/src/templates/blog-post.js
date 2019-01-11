@@ -2,12 +2,13 @@ import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
+//import Img from 'gatsby-image'
 
 const BlogPostContainer = styled.div`
   padding-top: 50px;
-  text-shadow: 4px 4px 17px #0a2e40, -4px -4px 17px #0a2e40;
+  /* text-shadow: 4px 4px 17px #0a2e40, -4px -4px 17px #0a2e40; */
   .above-line {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #0a2e40;
     margin-bottom: 35px;
     
     display: flex;
@@ -27,10 +28,27 @@ const BlogPostContainer = styled.div`
       
     }
   }
+  a {
+      color: darkred;
+      &:hover {
+        color: #0a2e40;
+        transition: 500ms;
+        
+      }
+    }
   .post-text{
     font-size: 22px;
+    &:last-child{
+      margin-bottom: 100px;
+    }
+    em{
+      font-style: italic;
+    }
+    h3,h5{
+      margin: 10px 0;
+    }
     p{
-      margin: 0 auto 20px;
+      margin: 20px auto ;
       width:85%;
       line-height: 1.5;
     }
@@ -65,6 +83,9 @@ export const postQuery = graphql`
         title
         author
         date
+        cover_image{
+          publicURL
+        }
       }
     }
   }

@@ -5,10 +5,10 @@ import styled from 'styled-components'
 
 const BlogContainer = styled.div`
   padding-top: 50px;
-  text-shadow: 4px 4px 17px #0a2e40, -4px -4px 17px #0a2e40;
+
   h2 {
     font-size: 26px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #0a2e40;
     margin-bottom: 25px;
     padding-bottom: 8px;
   }
@@ -26,7 +26,7 @@ const BlogContainer = styled.div`
 `
 
 const BlogPage = ({ data }) => {
-  let posts = data.allMarkdownRemark.edges
+  let posts = data.allMarkdownRemark.edges.reverse()
   return (
     <Layout>
       <BlogContainer>

@@ -7,21 +7,21 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const Container = styled.div`
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  padding-bottom: 152px;
   header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 235px;
     a {
       color: darkred;
       text-shadow: 2px 2px 2px yellow, -2px -2px 2px yellow;
       &:hover {
-        color: white;
+        color: #0a2e40;
         transition: 500ms;
-        text-shadow: 2px 2px 12px #0a2e40, -2px -2px 12px #0a2e40;
+        text-shadow: unset;
       }
     }
     div {
@@ -30,7 +30,6 @@ const Container = styled.div`
       h1 {
         font-size: 96px;
         text-align: center;
-        text-shadow: 6px 6px 19px #0a2e40, -6px -6px 19px #0a2e40;
         line-height: 1.5;
       }
     }
@@ -41,7 +40,6 @@ const Container = styled.div`
       p {
         font-size: 22px;
         line-height: 1.5;
-        text-shadow: 2px 2px 12px #0a2e40, -2px -2px 12px #0a2e40;
       }
     }
   }

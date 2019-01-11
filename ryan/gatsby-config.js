@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
+    `gatsby-remark-copy-linked-files`,
     `gatsby-plugin-catch-links`,
     {
       resolve: 'gatsby-source-filesystem',
@@ -29,15 +30,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `ryan-clausen-web-dev`,
+        short_name: `ryan-clausen`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
         icon: `src/images/ryan-img.jpg`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-remark-images`,
+      options:{
+        maxWidth: 900,
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

@@ -1,8 +1,9 @@
 ---
 path: '/first-day-labs'
-date: 'January 7th, 2019'
+date: 'Jan 7 2019'
 title: 'First Day of Labs 9'
 author: 'Ryan Clausen'
+cover_image: './day1blog.png'
 ---
 
 My first day of labs was interesting. I was not expecting to be bumped from my chosen group, but sometimes that's the way the cookie crumbles. 'When is My Kid on Stage' was the name of the project we were given. None of us really liked that name and from the wireframes we could not really glean the intended functionality of the app. So we made some adjustments.    

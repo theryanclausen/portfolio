@@ -9,7 +9,7 @@ import { twitterPathD, linkedinPathD, githubPathD } from '../images/svgs'
 
 
 const StyledHeader = styled.header`
-  background: #0a2e40;
+  background: lightblue;
   position: fixed;
   bottom:0;
   width: 100vw;
@@ -28,7 +28,6 @@ const StyledHeader = styled.header`
       align-items:start;
       
       a{
-        color:orange;
         font-family: 'Aleo', serif;
         margin-right:5px;
         &:hover{
@@ -46,7 +45,7 @@ const StyledHeader = styled.header`
         max-height:24px;
         max-width: 24px;
         fill-opacity: 0;
-        stroke: orange;
+        stroke: #0a2e40;
         stroke-width: 2px;
         stroke-linecap: 'round';
         stroke-linejoin: 'round';

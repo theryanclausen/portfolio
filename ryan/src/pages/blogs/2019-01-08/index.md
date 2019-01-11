@@ -1,8 +1,9 @@
 ---
 path: '/Second-day-labs'
-date: 'January 8th, 2019'
+date: 'Jan 8 2019'
 title: 'Second Day of Labs 9'
 author: 'Ryan Clausen'
+cover_image: './RDBS.png'
 ---
 
 Last night was a late night. Our TDD rejection came in waves. A few hours after labs time ended, we were hit with additional requirements. This happened to be about the time I was doing my nightly Project Manager duties as a PM for the WebPT4 group. I did my best to address some of the more pressing issues after part time was over. Four hours of researching competing technologies and I called it a night. 

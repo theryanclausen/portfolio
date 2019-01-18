@@ -1,0 +1,42 @@
+---
+path: '/week-two-labs'
+date: 'Jan 17 2019'
+title: 'Labs 9 Week Two Wrap up'
+author: 'Ryan Clausen'
+cover_image: ''
+---
+
+###Individual Accomplishments
+
+[Github contribution graph.](https://github.com/Lambda-School-Labs/labs9-family-tabs/pulse)
+
+This week I was off on my own working on Authentication. I actually prefer this division of work, especially when I am learning a new concept. It was struggle to be away from the team and not be able to contribute to what they were working on but in a team work environment it is important to be able to trust your collaborators decisions. Issues arose over confusion of where to put the stripe server. We had some extra unused packages that were throwing some errors and creating typescript files. I was able to help the team clean everything up and quickly orientate myself to a new section of the code.
+
+###Proof of Progress
+
+[Github Front end Commit #1: Setting Up the Auth0](https://github.com/Lambda-School-Labs/labs9-family-tabs/pull/28) -
+[Corresponding Trello](https://trello.com/c/CQHtXIAn/32-auth0-connect-front-end)  
+***[Screenshot album with reflections](https://imgur.com/gallery/t6u1Kk6)***
+
+
+[Github Front end Commit #2: Dev Backdoor to bypass database interaction](https://github.com/Lambda-School-Labs/labs9-family-tabs/pull/51) -
+[Corresponding Trello](https://trello.com/c/06CruH98/38-backdoor-for-dev-to-bypass-database) 
+
+[Github Front end Commit #3: Prevent login err response from creating truthy status for profile](https://github.com/Lambda-School-Labs/labs9-family-tabs/pull/43) - [Corresponding Trello](https://trello.com/c/IS4aLv3J/39-login-bug)
+
+[Github Back end Commit #1: Connected the Auth login to user/family data on the back end](https://github.com/Lambda-School-Labs/labs9-family-tabs/pull/42) -
+[Corresponding Trello](https://trello.com/c/5mjMqHGU/22-auth0-security) 
+
+[Github Back end Commit #2: Added schema for pro level accounts and child created events](https://github.com/Lambda-School-Labs/labs9-family-tabs/pull/57) -
+[Corresponding Trello](https://trello.com/c/cCXPpXPz/40-additional-schema-for-pro-level-accounts-and-child-created-events) 
+
+
+
+
+
+
+###Milestone Reflections
+
+***Setting up the Auth0***
+
+Auth0 was a real adventure. I thought using a third party security system would mean less work on my end, but as it turns out, you can only do so much to abstract away security before it stops being secure. I spent the weekend spinning up a little sandbox auth project based on an online tutorial. I had intended to spend only a few hours, but I was unprepared for the layers of complexity. Because of this prep work I did over the weekend and through the early part of the week, I was able to quickly implement it with few errors. In this way I was able to prevent unnecessary merge conflicts.

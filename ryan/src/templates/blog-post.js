@@ -41,8 +41,9 @@ const BlogPostContainer = styled.div`
     &:last-child{
       margin-bottom: 100px;
     }
-    em{
+    em a{
       font-style: italic;
+      color:orange;
     }
     h3,h5{
       margin: 10px 0;

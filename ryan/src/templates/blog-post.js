@@ -53,6 +53,9 @@ const BlogPostContainer = styled.div`
       width:85%;
       line-height: 1.5;
     }
+    li{
+      margin:15px;
+    }
     
   }
 `

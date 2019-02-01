@@ -1,7 +1,7 @@
 ---
 path: '/week-four-labs'
-date: 'Jan 25 2019'
-title: 'Labs 9 Week Three Wrap up'
+date: 'Jan 31 2019'
+title: 'Labs 9 Week Four Wrap up'
 author: 'Ryan Clausen'
 cover_image: ''
 ---
